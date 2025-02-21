@@ -1,0 +1,12 @@
+D:\rust_code\watch_program_log\target\debug\deps\libspin-7c22a33f801765f6.rmeta: C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\lib.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\barrier.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\lazy.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\mutex.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\mutex\spin.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\once.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\relax.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\rwlock.rs
+
+D:\rust_code\watch_program_log\target\debug\deps\spin-7c22a33f801765f6.d: C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\lib.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\barrier.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\lazy.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\mutex.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\mutex\spin.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\once.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\relax.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\rwlock.rs
+
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\lib.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\barrier.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\lazy.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\mutex.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\mutex\spin.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\once.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\relax.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spin-0.9.8\src\rwlock.rs:

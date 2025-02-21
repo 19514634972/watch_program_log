@@ -1,0 +1,11 @@
+D:\rust_code\watch_program_log\target\debug\deps\libfastdate-a2aef1d8ae64d067.rmeta: C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\fastdate-0.3.34\src\lib.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\fastdate-0.3.34\src\error.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\fastdate-0.3.34\src\sys\mod.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\fastdate-0.3.34\src\sys\windows.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\fastdate-0.3.34\src\date.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\fastdate-0.3.34\src\datetime.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\fastdate-0.3.34\src\time.rs
+
+D:\rust_code\watch_program_log\target\debug\deps\fastdate-a2aef1d8ae64d067.d: C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\fastdate-0.3.34\src\lib.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\fastdate-0.3.34\src\error.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\fastdate-0.3.34\src\sys\mod.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\fastdate-0.3.34\src\sys\windows.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\fastdate-0.3.34\src\date.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\fastdate-0.3.34\src\datetime.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\fastdate-0.3.34\src\time.rs
+
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\fastdate-0.3.34\src\lib.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\fastdate-0.3.34\src\error.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\fastdate-0.3.34\src\sys\mod.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\fastdate-0.3.34\src\sys\windows.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\fastdate-0.3.34\src\date.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\fastdate-0.3.34\src\datetime.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\fastdate-0.3.34\src\time.rs:
