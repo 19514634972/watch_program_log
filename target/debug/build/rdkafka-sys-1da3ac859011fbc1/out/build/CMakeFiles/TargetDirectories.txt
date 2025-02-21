@@ -1,0 +1,7 @@
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/INSTALL.dir
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/ALL_BUILD.dir
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/ZERO_CHECK.dir
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/src/CMakeFiles/rdkafka.dir
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/src/CMakeFiles/INSTALL.dir
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/src-cpp/CMakeFiles/rdkafka++.dir
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/src-cpp/CMakeFiles/INSTALL.dir

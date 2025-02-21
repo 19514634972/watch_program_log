@@ -1,0 +1,9 @@
+D:\rust_code\watch_program_log\target\debug\deps\num_enum_derive-2f94dec66b8a5048.dll: C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\num_enum_derive-0.7.3\src\lib.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\num_enum_derive-0.7.3\src\enum_attributes.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\num_enum_derive-0.7.3\src\parsing.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\num_enum_derive-0.7.3\src\utils.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\num_enum_derive-0.7.3\src\variant_attributes.rs
+
+D:\rust_code\watch_program_log\target\debug\deps\num_enum_derive-2f94dec66b8a5048.d: C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\num_enum_derive-0.7.3\src\lib.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\num_enum_derive-0.7.3\src\enum_attributes.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\num_enum_derive-0.7.3\src\parsing.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\num_enum_derive-0.7.3\src\utils.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\num_enum_derive-0.7.3\src\variant_attributes.rs
+
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\num_enum_derive-0.7.3\src\lib.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\num_enum_derive-0.7.3\src\enum_attributes.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\num_enum_derive-0.7.3\src\parsing.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\num_enum_derive-0.7.3\src\utils.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\num_enum_derive-0.7.3\src\variant_attributes.rs:

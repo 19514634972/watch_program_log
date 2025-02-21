@@ -1,0 +1,8 @@
+[package]
+name = "whole_kafka"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.39.3", features = ["full"] }
+rdkafka = { version = "0.36.1", default-features = false, features = ["libz", "tokio", "zstd","cmake-build"]  }

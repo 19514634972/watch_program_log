@@ -1,0 +1,1280 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: -nologo;-MD;-Brepro
+      Id flags:  
+      
+      The output was:
+      0
+      适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+      生成启动时间为 2025/2/21 20:54:05。
+      
+      节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\3.31.2\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        正在对“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”执行 Touch 任务。
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\3.31.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\3.31.2\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.55
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/3.31.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: -nologo;-MD;-Brepro
+      Id flags:  
+      
+      The output was:
+      0
+      适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+      生成启动时间为 2025/2/21 20:54:06。
+      
+      节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\3.31.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        正在对“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”执行 Touch 任务。
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\3.31.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\3.31.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.61
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/3.31.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-ahqipx"
+      binary: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-ahqipx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-ahqipx'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_85ca1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/2/21 20:54:07。
+        
+        节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ahqipx\\cmTC_85ca1.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_85ca1.dir\\Debug\\”。
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          正在创建目录“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ahqipx\\Debug\\”。
+          正在创建目录“cmTC_85ca1.dir\\Debug\\cmTC_85ca1.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_85ca1.dir\\Debug\\cmTC_85ca1.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_85ca1.dir\\Debug\\cmTC_85ca1.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85ca1.dir\\Debug\\\\" /Fd"cmTC_85ca1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ahqipx\\Debug\\cmTC_85ca1.exe" /INCREMENTAL /ILK:"cmTC_85ca1.dir\\Debug\\cmTC_85ca1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-ahqipx/Debug/cmTC_85ca1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-ahqipx/Debug/cmTC_85ca1.lib" /MACHINE:X64  /machine:x64 cmTC_85ca1.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_85ca1.vcxproj -> D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ahqipx\\Debug\\cmTC_85ca1.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_85ca1.dir\\Debug\\cmTC_85ca1.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_85ca1.dir\\Debug\\cmTC_85ca1.tlog\\cmTC_85ca1.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ahqipx\\cmTC_85ca1.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.51
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33523.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-gav5yv"
+      binary: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-gav5yv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-gav5yv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2604c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/2/21 20:54:08。
+        
+        节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gav5yv\\cmTC_2604c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_2604c.dir\\Debug\\”。
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          正在创建目录“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gav5yv\\Debug\\”。
+          正在创建目录“cmTC_2604c.dir\\Debug\\cmTC_2604c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_2604c.dir\\Debug\\cmTC_2604c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_2604c.dir\\Debug\\cmTC_2604c.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2604c.dir\\Debug\\\\" /Fd"cmTC_2604c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -Brepro "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gav5yv\\Debug\\cmTC_2604c.exe" /INCREMENTAL /ILK:"cmTC_2604c.dir\\Debug\\cmTC_2604c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-gav5yv/Debug/cmTC_2604c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-gav5yv/Debug/cmTC_2604c.lib" /MACHINE:X64  /machine:x64 cmTC_2604c.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_2604c.vcxproj -> D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gav5yv\\Debug\\cmTC_2604c.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_2604c.dir\\Debug\\cmTC_2604c.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_2604c.dir\\Debug\\cmTC_2604c.tlog\\cmTC_2604c.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gav5yv\\cmTC_2604c.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.51
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33523.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "CMakeLists.txt:37 (check_library_exists)"
+    checks:
+      - "Looking for pow in m"
+    directories:
+      source: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-3v3t2v"
+      binary: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-3v3t2v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/Modules/"
+    buildResult:
+      variable: "WITH_HDRHISTOGRAM"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-3v3t2v'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_33e2b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/2/21 20:54:09。
+        
+        节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3v3t2v\\cmTC_33e2b.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_33e2b.dir\\Debug\\”。
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          正在创建目录“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3v3t2v\\Debug\\”。
+          正在创建目录“cmTC_33e2b.dir\\Debug\\cmTC_33e2b.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_33e2b.dir\\Debug\\cmTC_33e2b.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_33e2b.dir\\Debug\\cmTC_33e2b.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D CHECK_FUNCTION_EXISTS=pow /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_33e2b.dir\\Debug\\\\" /Fd"cmTC_33e2b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3v3t2v\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3v3t2v\\Debug\\cmTC_33e2b.exe" /INCREMENTAL /ILK:"cmTC_33e2b.dir\\Debug\\cmTC_33e2b.ilk" /NOLOGO m.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-3v3t2v/Debug/cmTC_33e2b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-3v3t2v/Debug/cmTC_33e2b.lib" /MACHINE:X64  /machine:x64 cmTC_33e2b.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'm.lib' [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3v3t2v\\cmTC_33e2b.vcxproj]
+        已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3v3t2v\\cmTC_33e2b.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3v3t2v\\cmTC_33e2b.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: cannot open file 'm.lib' [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3v3t2v\\cmTC_33e2b.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.39
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:83 (try_compile)"
+    directories:
+      source: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+      binary: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/Modules/"
+    buildResult:
+      variable: "WITH_LIBDL"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6d351.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/2/21 20:54:09。
+        
+        节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_6d351.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_6d351.dir\\Debug\\”。
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          正在创建目录“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_6d351.dir\\Debug\\cmTC_6d351.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_6d351.dir\\Debug\\cmTC_6d351.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_6d351.dir\\Debug\\cmTC_6d351.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6d351.dir\\Debug\\\\" /Fd"cmTC_6d351.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\dlopen_test.c"
+          dlopen_test.c
+        C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\dlopen_test.c(2,10): error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_6d351.vcxproj]
+        已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_6d351.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_6d351.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\dlopen_test.c(2,10): error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_6d351.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "packaging/cmake/try_compile/rdkafka_setup.cmake:1 (try_compile)"
+      - "CMakeLists.txt:204 (include)"
+    directories:
+      source: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+      binary: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/Modules/"
+    buildResult:
+      variable: "HAVE_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_62368.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/2/21 20:54:10。
+        
+        节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_62368.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_62368.dir\\Debug\\”。
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          正在创建目录“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_62368.dir\\Debug\\cmTC_62368.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_62368.dir\\Debug\\cmTC_62368.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_62368.dir\\Debug\\cmTC_62368.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_62368.dir\\Debug\\\\" /Fd"cmTC_62368.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\regex_test.c"
+          regex_test.c
+        C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\regex_test.c(2,10): error C1083: Cannot open include file: 'regex.h': No such file or directory [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_62368.vcxproj]
+        已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_62368.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_62368.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\regex_test.c(2,10): error C1083: Cannot open include file: 'regex.h': No such file or directory [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_62368.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.47
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "packaging/cmake/try_compile/rdkafka_setup.cmake:7 (try_compile)"
+      - "CMakeLists.txt:204 (include)"
+    directories:
+      source: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+      binary: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/Modules/"
+    buildResult:
+      variable: "HAVE_STRNDUP"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_28ef3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/2/21 20:54:11。
+        
+        节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_28ef3.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_28ef3.dir\\Debug\\”。
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          正在创建目录“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_28ef3.dir\\Debug\\cmTC_28ef3.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_28ef3.dir\\Debug\\cmTC_28ef3.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_28ef3.dir\\Debug\\cmTC_28ef3.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28ef3.dir\\Debug\\\\" /Fd"cmTC_28ef3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\strndup_test.c"
+          strndup_test.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_28ef3.exe" /INCREMENTAL /ILK:"cmTC_28ef3.dir\\Debug\\cmTC_28ef3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_28ef3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_28ef3.lib" /MACHINE:X64  /machine:x64 cmTC_28ef3.dir\\Debug\\strndup_test.obj
+        strndup_test.obj : error LNK2019: unresolved external symbol strndup referenced in function main [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_28ef3.vcxproj]
+        D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_28ef3.exe : fatal error LNK1120: 1 unresolved externals [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_28ef3.vcxproj]
+        已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_28ef3.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_28ef3.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          strndup_test.obj : error LNK2019: unresolved external symbol strndup referenced in function main [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_28ef3.vcxproj]
+          D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_28ef3.exe : fatal error LNK1120: 1 unresolved externals [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_28ef3.vcxproj]
+        
+            0 个警告
+            2 个错误
+        
+        已用时间 00:00:00.64
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "packaging/cmake/try_compile/rdkafka_setup.cmake:13 (try_compile)"
+      - "CMakeLists.txt:204 (include)"
+    directories:
+      source: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+      binary: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/Modules/"
+    buildResult:
+      variable: "HAVE_RAND_R"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f2b38.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/2/21 20:54:12。
+        
+        节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_f2b38.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_f2b38.dir\\Debug\\”。
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          正在创建目录“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_f2b38.dir\\Debug\\cmTC_f2b38.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_f2b38.dir\\Debug\\cmTC_f2b38.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_f2b38.dir\\Debug\\cmTC_f2b38.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f2b38.dir\\Debug\\\\" /Fd"cmTC_f2b38.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\rand_r_test.c"
+          rand_r_test.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_f2b38.exe" /INCREMENTAL /ILK:"cmTC_f2b38.dir\\Debug\\cmTC_f2b38.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_f2b38.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_f2b38.lib" /MACHINE:X64  /machine:x64 cmTC_f2b38.dir\\Debug\\rand_r_test.obj
+        rand_r_test.obj : error LNK2019: unresolved external symbol rand_r referenced in function main [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_f2b38.vcxproj]
+        D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_f2b38.exe : fatal error LNK1120: 1 unresolved externals [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_f2b38.vcxproj]
+        已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_f2b38.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_f2b38.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          rand_r_test.obj : error LNK2019: unresolved external symbol rand_r referenced in function main [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_f2b38.vcxproj]
+          D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_f2b38.exe : fatal error LNK1120: 1 unresolved externals [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_f2b38.vcxproj]
+        
+            0 个警告
+            2 个错误
+        
+        已用时间 00:00:00.75
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "packaging/cmake/try_compile/rdkafka_setup.cmake:19 (try_compile)"
+      - "CMakeLists.txt:204 (include)"
+    directories:
+      source: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+      binary: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/Modules/"
+    buildResult:
+      variable: "HAVE_PTHREAD_SETNAME_GNU"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3b383.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/2/21 20:54:12。
+        
+        节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_3b383.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_3b383.dir\\Debug\\”。
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          正在创建目录“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_3b383.dir\\Debug\\cmTC_3b383.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_3b383.dir\\Debug\\cmTC_3b383.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_3b383.dir\\Debug\\cmTC_3b383.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D _GNU_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b383.dir\\Debug\\\\" /Fd"cmTC_3b383.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_gnu_test.c"
+          pthread_setname_gnu_test.c
+        C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_gnu_test.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_3b383.vcxproj]
+        已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_3b383.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_3b383.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_gnu_test.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_3b383.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.36
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "packaging/cmake/try_compile/rdkafka_setup.cmake:27 (try_compile)"
+      - "CMakeLists.txt:204 (include)"
+    directories:
+      source: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+      binary: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/Modules/"
+    buildResult:
+      variable: "HAVE_PTHREAD_SETNAME_DARWIN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0c72f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/2/21 20:54:13。
+        
+        节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_0c72f.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_0c72f.dir\\Debug\\”。
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          正在创建目录“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_0c72f.dir\\Debug\\cmTC_0c72f.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_0c72f.dir\\Debug\\cmTC_0c72f.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_0c72f.dir\\Debug\\cmTC_0c72f.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D _DARWIN_C_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c72f.dir\\Debug\\\\" /Fd"cmTC_0c72f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_darwin_test.c"
+          pthread_setname_darwin_test.c
+        C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_darwin_test.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_0c72f.vcxproj]
+        已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_0c72f.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_0c72f.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_darwin_test.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_0c72f.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "packaging/cmake/try_compile/rdkafka_setup.cmake:35 (try_compile)"
+      - "CMakeLists.txt:204 (include)"
+    directories:
+      source: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+      binary: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/Modules/"
+    buildResult:
+      variable: "HAVE_PTHREAD_SETNAME_FREEBSD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_134d8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/2/21 20:54:13。
+        
+        节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_134d8.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_134d8.dir\\Debug\\”。
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          正在创建目录“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_134d8.dir\\Debug\\cmTC_134d8.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_134d8.dir\\Debug\\cmTC_134d8.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_134d8.dir\\Debug\\cmTC_134d8.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_134d8.dir\\Debug\\\\" /Fd"cmTC_134d8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_freebsd_test.c"
+          pthread_setname_freebsd_test.c
+        C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_freebsd_test.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_134d8.vcxproj]
+        已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_134d8.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_134d8.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_freebsd_test.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_134d8.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "packaging/cmake/try_compile/rdkafka_setup.cmake:47 (try_compile)"
+      - "CMakeLists.txt:204 (include)"
+    directories:
+      source: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+      binary: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/Modules/"
+    buildResult:
+      variable: "_atomics_32"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4d97c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/2/21 20:54:14。
+        
+        节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_4d97c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_4d97c.dir\\Debug\\”。
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          正在创建目录“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_4d97c.dir\\Debug\\cmTC_4d97c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_4d97c.dir\\Debug\\cmTC_4d97c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_4d97c.dir\\Debug\\cmTC_4d97c.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4d97c.dir\\Debug\\\\" /Fd"cmTC_4d97c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_32_test.c"
+          atomic_32_test.c
+        C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_32_test.c(4,58): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_4d97c.vcxproj]
+        已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_4d97c.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_4d97c.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_32_test.c(4,58): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_4d97c.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.33
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "packaging/cmake/try_compile/rdkafka_setup.cmake:56 (try_compile)"
+      - "CMakeLists.txt:204 (include)"
+    directories:
+      source: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+      binary: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/Modules/"
+    buildResult:
+      variable: "_atomics_32_lib"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_23e19.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/2/21 20:54:14。
+        
+        节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_23e19.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_23e19.dir\\Debug\\”。
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          正在创建目录“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_23e19.dir\\Debug\\cmTC_23e19.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_23e19.dir\\Debug\\cmTC_23e19.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_23e19.dir\\Debug\\cmTC_23e19.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_23e19.dir\\Debug\\\\" /Fd"cmTC_23e19.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_32_test.c"
+          atomic_32_test.c
+        C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_32_test.c(4,58): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_23e19.vcxproj]
+        已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_23e19.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_23e19.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_32_test.c(4,58): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_23e19.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.33
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "packaging/cmake/try_compile/rdkafka_setup.cmake:66 (try_compile)"
+      - "CMakeLists.txt:204 (include)"
+    directories:
+      source: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+      binary: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/Modules/"
+    buildResult:
+      variable: "HAVE_ATOMICS_32_SYNC"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_58289.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/2/21 20:54:15。
+        
+        节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_58289.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_58289.dir\\Debug\\”。
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          正在创建目录“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_58289.dir\\Debug\\cmTC_58289.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_58289.dir\\Debug\\cmTC_58289.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_58289.dir\\Debug\\cmTC_58289.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_58289.dir\\Debug\\\\" /Fd"cmTC_58289.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\sync_32_test.c"
+          sync_32_test.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_58289.exe" /INCREMENTAL /ILK:"cmTC_58289.dir\\Debug\\cmTC_58289.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_58289.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_58289.lib" /MACHINE:X64  /machine:x64 cmTC_58289.dir\\Debug\\sync_32_test.obj
+        sync_32_test.obj : error LNK2019: unresolved external symbol __sync_add_and_fetch referenced in function foo [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_58289.vcxproj]
+        D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_58289.exe : fatal error LNK1120: 1 unresolved externals [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_58289.vcxproj]
+        已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_58289.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_58289.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          sync_32_test.obj : error LNK2019: unresolved external symbol __sync_add_and_fetch referenced in function foo [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_58289.vcxproj]
+          D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_58289.exe : fatal error LNK1120: 1 unresolved externals [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_58289.vcxproj]
+        
+            0 个警告
+            2 个错误
+        
+        已用时间 00:00:00.47
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "packaging/cmake/try_compile/rdkafka_setup.cmake:79 (try_compile)"
+      - "CMakeLists.txt:204 (include)"
+    directories:
+      source: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+      binary: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/Modules/"
+    buildResult:
+      variable: "_atomics_64"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0f152.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/2/21 20:54:15。
+        
+        节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_0f152.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_0f152.dir\\Debug\\”。
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          正在创建目录“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_0f152.dir\\Debug\\cmTC_0f152.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_0f152.dir\\Debug\\cmTC_0f152.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_0f152.dir\\Debug\\cmTC_0f152.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f152.dir\\Debug\\\\" /Fd"cmTC_0f152.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_64_test.c"
+          atomic_64_test.c
+        C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_64_test.c(4,58): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_0f152.vcxproj]
+        已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_0f152.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_0f152.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_64_test.c(4,58): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_0f152.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.33
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "packaging/cmake/try_compile/rdkafka_setup.cmake:88 (try_compile)"
+      - "CMakeLists.txt:204 (include)"
+    directories:
+      source: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+      binary: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/Modules/"
+    buildResult:
+      variable: "_atomics_64_lib"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_24df1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/2/21 20:54:16。
+        
+        节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_24df1.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_24df1.dir\\Debug\\”。
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          正在创建目录“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_24df1.dir\\Debug\\cmTC_24df1.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_24df1.dir\\Debug\\cmTC_24df1.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_24df1.dir\\Debug\\cmTC_24df1.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_24df1.dir\\Debug\\\\" /Fd"cmTC_24df1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_64_test.c"
+          atomic_64_test.c
+        C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_64_test.c(4,58): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_24df1.vcxproj]
+        已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_24df1.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_24df1.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_64_test.c(4,58): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_24df1.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.32
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "packaging/cmake/try_compile/rdkafka_setup.cmake:98 (try_compile)"
+      - "CMakeLists.txt:204 (include)"
+    directories:
+      source: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+      binary: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/Modules/"
+    buildResult:
+      variable: "HAVE_ATOMICS_64_SYNC"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ceae2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/2/21 20:54:16。
+        
+        节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ceae2.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_ceae2.dir\\Debug\\”。
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          正在创建目录“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_ceae2.dir\\Debug\\cmTC_ceae2.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_ceae2.dir\\Debug\\cmTC_ceae2.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_ceae2.dir\\Debug\\cmTC_ceae2.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ceae2.dir\\Debug\\\\" /Fd"cmTC_ceae2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\sync_64_test.c"
+          sync_64_test.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_ceae2.exe" /INCREMENTAL /ILK:"cmTC_ceae2.dir\\Debug\\cmTC_ceae2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_ceae2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_ceae2.lib" /MACHINE:X64  /machine:x64 cmTC_ceae2.dir\\Debug\\sync_64_test.obj
+        sync_64_test.obj : error LNK2019: unresolved external symbol __sync_add_and_fetch referenced in function foo [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ceae2.vcxproj]
+        D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_ceae2.exe : fatal error LNK1120: 1 unresolved externals [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ceae2.vcxproj]
+        已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ceae2.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ceae2.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          sync_64_test.obj : error LNK2019: unresolved external symbol __sync_add_and_fetch referenced in function foo [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ceae2.vcxproj]
+          D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_ceae2.exe : fatal error LNK1120: 1 unresolved externals [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ceae2.vcxproj]
+        
+            0 个警告
+            2 个错误
+        
+        已用时间 00:00:00.45
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "packaging/cmake/try_compile/rdkafka_setup.cmake:108 (try_compile)"
+      - "CMakeLists.txt:204 (include)"
+    directories:
+      source: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+      binary: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/Modules/"
+    buildResult:
+      variable: "WITH_C11THREADS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_be26f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/2/21 20:54:17。
+        
+        节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_be26f.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_be26f.dir\\Debug\\”。
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          正在创建目录“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_be26f.dir\\Debug\\cmTC_be26f.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_be26f.dir\\Debug\\cmTC_be26f.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_be26f.dir\\Debug\\cmTC_be26f.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be26f.dir\\Debug\\\\" /Fd"cmTC_be26f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\c11threads_test.c"
+          c11threads_test.c
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\threads.h(101,16): error C2054: expected '(' to follow '_Noreturn' [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_be26f.vcxproj]
+          (compiling source file 'C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/try_compile/c11threads_test.c')
+          
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\threads.h(101,24): error C2085: 'thrd_exit': not in formal parameter list [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_be26f.vcxproj]
+          (compiling source file 'C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/try_compile/c11threads_test.c')
+          
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\threads.h(104,13): error C2085: 'thrd_join': not in formal parameter list [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_be26f.vcxproj]
+          (compiling source file 'C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/try_compile/c11threads_test.c')
+          
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\threads.h(105,13): error C2085: '_thrd_sleep32': not in formal parameter list [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_be26f.vcxproj]
+          (compiling source file 'C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/try_compile/c11threads_test.c')
+          
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\threads.h(107,13): error C2085: '_thrd_sleep64': not in formal parameter list [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_be26f.vcxproj]
+          (compiling source file 'C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/try_compile/c11threads_test.c')
+          
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\threads.h(116,27): error C2085: 'thrd_sleep': not in formal parameter list [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_be26f.vcxproj]
+          (compiling source file 'C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/try_compile/c11threads_test.c')
+          
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\threads.h(116,99): error C2143: syntax error: missing ';' before '{' [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_be26f.vcxproj]
+          (compiling source file 'C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/try_compile/c11threads_test.c')
+          
+        已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_be26f.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_be26f.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\threads.h(101,16): error C2054: expected '(' to follow '_Noreturn' [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_be26f.vcxproj]
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\threads.h(101,24): error C2085: 'thrd_exit': not in formal parameter list [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_be26f.vcxproj]
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\threads.h(104,13): error C2085: 'thrd_join': not in formal parameter list [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_be26f.vcxproj]
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\threads.h(105,13): error C2085: '_thrd_sleep32': not in formal parameter list [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_be26f.vcxproj]
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\threads.h(107,13): error C2085: '_thrd_sleep64': not in formal parameter list [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_be26f.vcxproj]
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\threads.h(116,27): error C2085: 'thrd_sleep': not in formal parameter list [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_be26f.vcxproj]
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\threads.h(116,99): error C2143: syntax error: missing ';' before '{' [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_be26f.vcxproj]
+        
+            0 个警告
+            7 个错误
+        
+        已用时间 00:00:00.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "packaging/cmake/try_compile/rdkafka_setup.cmake:117 (try_compile)"
+      - "CMakeLists.txt:204 (include)"
+    directories:
+      source: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+      binary: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/Modules/"
+    buildResult:
+      variable: "WITH_CRC32C_HW"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/try_compile/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2dba5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/2/21 20:54:17。
+        
+        节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_2dba5.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_2dba5.dir\\Debug\\”。
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          正在创建目录“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_2dba5.dir\\Debug\\cmTC_2dba5.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_2dba5.dir\\Debug\\cmTC_2dba5.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_2dba5.dir\\Debug\\cmTC_2dba5.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2dba5.dir\\Debug\\\\" /Fd"cmTC_2dba5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\crc32c_hw_test.c"
+          crc32c_hw_test.c
+        C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\crc32c_hw_test.c(10,25): error C2143: syntax error: missing ')' before ':' [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_2dba5.vcxproj]
+        C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\crc32c_hw_test.c(14,13): error C2143: syntax error: missing ')' before ':' [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_2dba5.vcxproj]
+        C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\crc32c_hw_test.c(22,13): error C2143: syntax error: missing ')' before ':' [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_2dba5.vcxproj]
+        已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_2dba5.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_2dba5.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\crc32c_hw_test.c(10,25): error C2143: syntax error: missing ')' before ':' [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_2dba5.vcxproj]
+          C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\crc32c_hw_test.c(14,13): error C2143: syntax error: missing ')' before ':' [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_2dba5.vcxproj]
+          C:\\Users\\wezone\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rdkafka-sys-4.8.0+2.3.0\\librdkafka\\packaging\\cmake\\try_compile\\crc32c_hw_test.c(22,13): error C2143: syntax error: missing ')' before ':' [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_2dba5.vcxproj]
+        
+            0 个警告
+            3 个错误
+        
+        已用时间 00:00:00.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "src/CMakeLists.txt:246 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-375wit"
+      binary: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-375wit"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-375wit'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e6fd0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/2/21 20:54:18。
+        
+        节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-375wit\\cmTC_e6fd0.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_e6fd0.dir\\Debug\\”。
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          正在创建目录“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-375wit\\Debug\\”。
+          正在创建目录“cmTC_e6fd0.dir\\Debug\\cmTC_e6fd0.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_e6fd0.dir\\Debug\\cmTC_e6fd0.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_e6fd0.dir\\Debug\\cmTC_e6fd0.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e6fd0.dir\\Debug\\\\" /Fd"cmTC_e6fd0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-375wit\\src.c"
+          src.c
+        D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-375wit\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-375wit\\cmTC_e6fd0.vcxproj]
+        已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-375wit\\cmTC_e6fd0.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-375wit\\cmTC_e6fd0.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-375wit\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-375wit\\cmTC_e6fd0.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "src/CMakeLists.txt:246 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-n065f5"
+      binary: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-n065f5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-n065f5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f15f9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/2/21 20:54:18。
+        
+        节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n065f5\\cmTC_f15f9.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_f15f9.dir\\Debug\\”。
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          正在创建目录“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n065f5\\Debug\\”。
+          正在创建目录“cmTC_f15f9.dir\\Debug\\cmTC_f15f9.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_f15f9.dir\\Debug\\cmTC_f15f9.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_f15f9.dir\\Debug\\cmTC_f15f9.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f15f9.dir\\Debug\\\\" /Fd"cmTC_f15f9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n065f5\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n065f5\\Debug\\cmTC_f15f9.exe" /INCREMENTAL /ILK:"cmTC_f15f9.dir\\Debug\\cmTC_f15f9.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-n065f5/Debug/cmTC_f15f9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-n065f5/Debug/cmTC_f15f9.lib" /MACHINE:X64  /machine:x64 cmTC_f15f9.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n065f5\\cmTC_f15f9.vcxproj]
+        已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n065f5\\cmTC_f15f9.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n065f5\\cmTC_f15f9.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n065f5\\cmTC_f15f9.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.58
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "src/CMakeLists.txt:246 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-81frxk"
+      binary: "D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-81frxk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-4.8.0+2.3.0/librdkafka/packaging/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-81frxk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_43b9f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/2/21 20:54:19。
+        
+        节点 1 上的项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-81frxk\\cmTC_43b9f.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_43b9f.dir\\Debug\\”。
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          正在创建目录“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-81frxk\\Debug\\”。
+          正在创建目录“cmTC_43b9f.dir\\Debug\\cmTC_43b9f.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_43b9f.dir\\Debug\\cmTC_43b9f.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_43b9f.dir\\Debug\\cmTC_43b9f.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43b9f.dir\\Debug\\\\" /Fd"cmTC_43b9f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-81frxk\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-81frxk\\Debug\\cmTC_43b9f.exe" /INCREMENTAL /ILK:"cmTC_43b9f.dir\\Debug\\cmTC_43b9f.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-81frxk/Debug/cmTC_43b9f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-1da3ac859011fbc1/out/build/CMakeFiles/CMakeScratch/TryCompile-81frxk/Debug/cmTC_43b9f.lib" /MACHINE:X64  /machine:x64 cmTC_43b9f.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-81frxk\\cmTC_43b9f.vcxproj]
+        已完成生成项目“D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-81frxk\\cmTC_43b9f.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-81frxk\\cmTC_43b9f.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\rust_code\\watch_program_log\\target\\debug\\build\\rdkafka-sys-1da3ac859011fbc1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-81frxk\\cmTC_43b9f.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.38
+        
+      exitCode: 1
+...

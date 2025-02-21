@@ -1,0 +1,10 @@
+^D:\RUST_CODE\WATCH_PROGRAM_LOG\TARGET\DEBUG\BUILD\RDKAFKA-SYS-16C4B087087D9E8B\OUT\BUILD\CMAKEFILES\9E016DE7E0F91AAC6BF35600F723469D\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

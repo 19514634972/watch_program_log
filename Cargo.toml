@@ -2,7 +2,7 @@
 resolver = "2"
 members = [
     "whole_config",
-    "watch_script",
+    "watch_script", "whole_kafka",
 ]
 exclude = ["cassie_tests","cassie_devtools"]
 [profile.release]

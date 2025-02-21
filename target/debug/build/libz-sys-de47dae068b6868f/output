@@ -1,0 +1,96 @@
+cargo:rerun-if-env-changed=LIBZ_SYS_STATIC
+cargo:rerun-if-changed=build.rs
+cargo:rerun-if-changed=zng/cmake.rs
+cargo:rerun-if-changed=zng/cc.rs
+note, vcpkg did not find zlib: Could not find Vcpkg tree: No vcpkg installation found. Set the VCPKG_ROOT environment variable or run 'vcpkg integrate install'
+OPT_LEVEL = Some(0)
+TARGET = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=VCINSTALLDIR
+VCINSTALLDIR = None
+cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+VSTEL_MSBuildProjectFullPath = None
+cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+VSCMD_ARG_VCVARS_SPECTRE = None
+cargo:rerun-if-env-changed=WindowsSdkDir
+WindowsSdkDir = None
+cargo:rerun-if-env-changed=WindowsSDKVersion
+WindowsSDKVersion = None
+cargo:rerun-if-env-changed=LIB
+LIB = None
+PATH = Some(D:\rust_code\watch_program_log\target\debug\deps;D:\rust_code\watch_program_log\target\debug;C:\Users\wezone\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;.;C:\java_jdk\bin;C:\java_jdk\jre\bin;C:\Go\bin\;C:\Program Files\Git\cmd;D:\mysql\mysql-8.0.37-winx64\bin;C:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Users\wezone\go\pkg\mod\github.com\cosmtrek\air@v1.52.3;D:\git_flow;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\CMake\bin;C:\zig\zig;D:\ab_sever\platform-tools;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\wezone\scoop\shims;.;C:\java_jdk\bin;C:\java_jdk\jre\bin;C:\Go\bin\;C:\Program Files\Go\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;D:\mysql\mysql-8.0.37-winx64\bin;C:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Users\wezone\go\pkg\mod\github.com\cosmtrek\air@v1.52.3;C:\Users\wezone\.cargo\bin;C:\Users\wezone\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\wezone\AppData\Local\Programs\Python\Python311\;C:\Users\wezone\AppData\Local\Microsoft\WindowsApps;D:\pycharm\PyCharm 2023.3.4\bin;;C:\Users\wezone\go\bin;D:\development_tools\nodejs\node_global;D:\development_tools\nodejs\node_global\node_modules;C:\Users\wezone\AppData\Local\GitHubDesktop\bin;C:\Users\wezone\go\pkg\mod\github.com\cosmtrek\air@v1.51.0;C:\Windows\System32;C:\Program Files (x86)\Graphviz2.38\bin;D:\quick_edit\Quick App IDE\bin;C:\Users\wezone\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\wezone\AppData\Roaming\npm;C:\Users\wezone\go\bin;D:\Rust_over\RustRover 2024.2.4\bin;;C:\Users\wezone\AppData\Local\Microsoft\WindowsApps)
+cargo:rerun-if-env-changed=INCLUDE
+INCLUDE = None
+HOST = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+DEBUG = Some(true)
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+CARGO_ENCODED_RUSTFLAGS = Some()
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+compress.c
+crc32.c
+deflate.c
+adler32.c
+infback.c
+inffast.c
+inflate.c
+inftrees.c
+trees.c
+uncompr.c
+gzlib.c
+zutil.c
+gzclose.c
+gzread.c
+gzwrite.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:rustc-link-lib=static=z
+cargo:rustc-link-search=native=D:\rust_code\watch_program_log\target\debug\build\libz-sys-de47dae068b6868f\out\lib
+cargo:root=D:\rust_code\watch_program_log\target\debug\build\libz-sys-de47dae068b6868f\out
+cargo:rustc-link-search=native=D:\rust_code\watch_program_log\target\debug\build\libz-sys-de47dae068b6868f\out\lib
+cargo:include=D:\rust_code\watch_program_log\target\debug\build\libz-sys-de47dae068b6868f\out/include

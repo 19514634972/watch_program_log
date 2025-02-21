@@ -1,0 +1,15 @@
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-16c4b087087d9e8b/out/lib/cmake/RdKafka/RdKafkaConfig.cmake
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-16c4b087087d9e8b/out/lib/cmake/RdKafka/RdKafkaConfigVersion.cmake
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-16c4b087087d9e8b/out/lib/cmake/RdKafka/FindLZ4.cmake
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-16c4b087087d9e8b/out/lib/cmake/RdKafka/RdKafkaTargets.cmake
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-16c4b087087d9e8b/out/lib/cmake/RdKafka/RdKafkaTargets-debug.cmake
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-16c4b087087d9e8b/out/share/licenses/librdkafka/LICENSES.txt
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-16c4b087087d9e8b/out/lib/pkgconfig/rdkafka.pc
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-16c4b087087d9e8b/out/lib/pkgconfig/rdkafka.pc
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-16c4b087087d9e8b/out/lib/rdkafka.lib
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-16c4b087087d9e8b/out/include/librdkafka/rdkafka.h
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-16c4b087087d9e8b/out/include/librdkafka/rdkafka_mock.h
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-16c4b087087d9e8b/out/lib/pkgconfig/rdkafka++.pc
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-16c4b087087d9e8b/out/lib/pkgconfig/rdkafka.pc
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-16c4b087087d9e8b/out/lib/rdkafka++.lib
+D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-16c4b087087d9e8b/out/include/librdkafka/rdkafkacpp.h

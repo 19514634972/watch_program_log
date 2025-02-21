@@ -1,0 +1,10 @@
+^D:\RUST_CODE\WATCH_PROGRAM_LOG\TARGET\DEBUG\BUILD\RDKAFKA-SYS-16C4B087087D9E8B\OUT\BUILD\CMAKEFILES\9E016DE7E0F91AAC6BF35600F723469D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/wezone/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rdkafka-sys-3.0.0+1.6.0/librdkafka -BD:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-16c4b087087d9e8b/out/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/rust_code/watch_program_log/target/debug/build/rdkafka-sys-16c4b087087d9e8b/out/build/RdKafka.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
