@@ -8,4 +8,4 @@
 ![img.png](img.png)
 ## 设计思路
 上图橙黄色区域是系统需要开发实现的部分,log Agent文件读取日志,发送到kafka,transfer转发到es,实现日志可视化查询
-用到的技术点有kafka,zookeeper,elasticsearch,kibana,etcd,influxdb等
+用到的技术点有kafka,zookeeper,elasticsearch,kibana,etcd,influxdb等。
