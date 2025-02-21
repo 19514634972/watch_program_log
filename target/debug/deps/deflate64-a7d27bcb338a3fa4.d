@@ -1,0 +1,10 @@
+D:\rust_code\watch_program_log\target\debug\deps\libdeflate64-a7d27bcb338a3fa4.rmeta: C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\deflate64-0.1.9\src\lib.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\deflate64-0.1.9\src\huffman_tree.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\deflate64-0.1.9\src\inflater_managed.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\deflate64-0.1.9\src\input_buffer.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\deflate64-0.1.9\src\output_window.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\deflate64-0.1.9\src\stream.rs
+
+D:\rust_code\watch_program_log\target\debug\deps\deflate64-a7d27bcb338a3fa4.d: C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\deflate64-0.1.9\src\lib.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\deflate64-0.1.9\src\huffman_tree.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\deflate64-0.1.9\src\inflater_managed.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\deflate64-0.1.9\src\input_buffer.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\deflate64-0.1.9\src\output_window.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\deflate64-0.1.9\src\stream.rs
+
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\deflate64-0.1.9\src\lib.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\deflate64-0.1.9\src\huffman_tree.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\deflate64-0.1.9\src\inflater_managed.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\deflate64-0.1.9\src\input_buffer.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\deflate64-0.1.9\src\output_window.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\deflate64-0.1.9\src\stream.rs:

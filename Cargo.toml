@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+members = [
+    "whole_config",
+    "watch_script",
+]
+exclude = ["cassie_tests","cassie_devtools"]
+[profile.release]
+codegen-units = 1
+incremental = true
+lto = true
+opt-level = 'z' # Optimize for size
+
+
+[profile.release.package.config]
+opt-level = 3
+
+[profile.release.package.watch_script]
+opt-level = 3

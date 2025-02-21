@@ -1,0 +1,12 @@
+D:\rust_code\watch_program_log\target\debug\deps\libbitflags-6e3da8b94044651a.rmeta: C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\lib.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\iter.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\parser.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\traits.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\public.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\internal.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\external.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\external\serde.rs
+
+D:\rust_code\watch_program_log\target\debug\deps\bitflags-6e3da8b94044651a.d: C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\lib.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\iter.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\parser.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\traits.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\public.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\internal.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\external.rs C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\external\serde.rs
+
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\lib.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\iter.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\parser.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\traits.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\public.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\internal.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\external.rs:
+C:\Users\wezone\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.8.0\src\external\serde.rs:
