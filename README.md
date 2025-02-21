@@ -5,7 +5,9 @@
 量的系统资源,对于小型项目来说,可能会显得过于庞大和复杂。
 因此我们设计了一个新的解决方案：
 
-![img.png](img.png)
+
+![流程图](https://github.com/user-attachments/assets/65e5fc72-a0fa-4eec-ba0f-e897f85de945)
+
 ## 设计思路
 上图橙黄色区域是系统需要开发实现的部分,log Agent文件读取日志,发送到kafka,transfer转发到es,实现日志可视化查询
 用到的技术点有kafka,zookeeper,elasticsearch,kibana,etcd,influxdb等。
