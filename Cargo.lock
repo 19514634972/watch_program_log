@@ -1783,6 +1783,7 @@ dependencies = [
  "config",
  "fast_log",
  "log",
+ "rdkafka",
  "state",
  "tokio",
  "whole_config",
@@ -1796,14 +1797,6 @@ dependencies = [
  "serde",
  "serde_json",
  "serde_yaml",
-]
-
-[[package]]
-name = "whole_kafka"
-version = "0.1.0"
-dependencies = [
- "rdkafka",
- "tokio",
 ]
 
 [[package]]

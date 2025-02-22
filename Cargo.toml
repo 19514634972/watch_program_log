@@ -2,7 +2,7 @@
 resolver = "2"
 members = [
     "whole_config",
-    "watch_script", "whole_kafka",
+    "watch_script",
 ]
 exclude = ["cassie_tests","cassie_devtools"]
 [profile.release]
@@ -16,4 +16,8 @@ opt-level = 'z' # Optimize for size
 opt-level = 3
 
 [profile.release.package.watch_script]
+opt-level = 3
+
+
+[profile.release.package.whole_config]
 opt-level = 3
