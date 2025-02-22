@@ -18,6 +18,5 @@ opt-level = 3
 [profile.release.package.watch_script]
 opt-level = 3
 
-
 [profile.release.package.whole_config]
 opt-level = 3
